@@ -125,7 +125,6 @@ a {
     padding: 10px;
     border-radius: 20px;
 }
-
 @media (max-width: 425px) {
     .navmenu {
         flex-wrap: nowrap;
