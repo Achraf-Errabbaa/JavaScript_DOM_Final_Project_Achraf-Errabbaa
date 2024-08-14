@@ -73,7 +73,7 @@ a {
     border-bottom: 2px solid red;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 425px) {
     .navmenu {
         flex-wrap: nowrap;
     }
