@@ -1,7 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 nav {
+    padding: 25px;
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+.sitename{
+    font-size: 35px;
+    font-weight: 80%;
+}
+.sitename span{
+    color: red;
 }
 
 a {
@@ -14,7 +26,7 @@ a {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    font-size: large;
+    font-size: larger;
 }
 
 .navmenu ul {
@@ -44,6 +56,7 @@ a {
     min-width: 160px;
     z-index: 1;
     transition: opacity 0.3s;
+    overflow: hidden;
 }
 
 .dropdown-content a {
@@ -71,6 +84,46 @@ a {
 
 .dropbtn:hover {
     border-bottom: 2px solid red;
+}
+
+.sub-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.sub-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    z-index: 1;
+    left: -160px;
+    top: 0;
+    transition: opacity 0.3s;
+}
+
+.dropdown-content:hover .sub-dropdown-content {
+    display: block;
+    opacity: 1;
+}
+
+.dropbtn2 {
+    padding-right: 10px;
+    font-size: 17px;
+    background-color: white;
+    border: none;
+}
+
+.dropbtn2:hover {
+    border-bottom: 2px solid red;
+}
+.btn-getstarted{
+    border: none;
+    width: 9vw;
+    background-color: rgb(188, 24, 24);
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
 }
 
 @media (max-width: 425px) {
