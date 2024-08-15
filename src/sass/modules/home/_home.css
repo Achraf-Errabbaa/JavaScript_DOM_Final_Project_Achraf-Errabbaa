@@ -58,6 +58,19 @@ nav {
   border-radius: 20px;
 }
 
+.modals {
+  background-color: aqua;
+  text-align: center;
+  left: 650px;
+  height: 150px;
+  padding: 50px;
+  border-radius: 40px;
+  width: 250px;
+  position: relative;
+  top: 250px;
+  z-index: 99999;
+}
+
 .home-text {
   padding: 10%;
 }
