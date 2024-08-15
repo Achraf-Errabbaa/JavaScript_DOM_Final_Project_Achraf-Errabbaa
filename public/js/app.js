@@ -17,3 +17,7 @@ window.addEventListener('click', (e) => {
         modal.style.display = 'none';
     }
 });
+
+//* menu section
+
+const menuModal = document.querySelector

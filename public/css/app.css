@@ -288,5 +288,44 @@ nav {
 .stat p {
   margin: 0;
   font-size: 1em;
+  color: #a3a3a4;
+}
+
+.text-menu{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.menu-continer ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  cursor: pointer;
+  gap: 20px;
+}
+.menu-text{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 20px;
+}
+.menu-text h3{
+  font-family: Bradley Hand, cursive;
+  color: rgb(202, 14, 14);
+}
+.dishes{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.dishe{
+  width: 500px;
+}
+.dishe img{
+  width: 300px;
 }
 /*# sourceMappingURL=app.css.map */
