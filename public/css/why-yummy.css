@@ -1,0 +1,93 @@
+
+.why-section {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #f9f9f9;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.why-yummy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid;
+    padding: 20px;
+    margin: 10px;
+    background-color: #ce1212;
+    color: white;
+    height: 35vh;
+    width: 50vw;
+}
+
+.why-yummy h3 {
+    margin-bottom: 10px;
+}
+
+.why-yummy p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.why-yummy button {
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    width: 150px;
+    font-size: medium;
+    background-color: #e06a6a;
+    cursor: pointer;
+}
+
+.infos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    gap: 20px;
+    background-color: white;
+}
+
+.info i {
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 20px;
+    font-size: x-large;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    background-color: #e2c5c5;
+    border: none;
+}
+.info i:hover{
+    background: #ce1212;
+}
+
+.info h4 {
+    margin-bottom: 10px;
+}
+
+.info p {
+    font-size: 0.9em;
+}
