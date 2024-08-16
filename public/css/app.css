@@ -508,6 +508,9 @@ img {
   align-items: center;
   justify-content: center;
 }
+.bookAtable{
+  padding-top: 50px;
+}
 
 .book-title {
   display: flex;
