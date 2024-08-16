@@ -17,7 +17,7 @@
 
 <body>
     <nav>
-            <h1 class="sitename">Yummy<span>.</span></h1>
+        <h1 class="sitename">Yummy<span>.</span></h1>
         <div class="navmenu">
             <ul>
                 <li><a href="#hero" class="active">Home<br></a></li>
@@ -141,28 +141,29 @@
             <p>Workers</p>
         </div>
     </section>
+
     <section class="menu">
         <div class="text-menu">
-        <p>OUR MENu</p>
-        <h1>Check Our Yummy Menu</h1>
+            <p>OUR MENu</p>
+            <h1>Check Our Yummy Menu</h1>
         </div>
         <div class="menu-continer">
             <ul>
-                <li><a>Starters</a></li>
-                <li><a>Breakfast</a></li>
-                <li><a>Lunch</a></li>
-                <li><a>Dinner</a></li>
+                <li class="starters">Starters</li>
+                <li class="breakfast">Breakfast</li>
+                <li class="lunch">Lunch</li>
+                <li class="dinner">Dinner</li>
             </ul>
             <div class="menu-text">
                 <p>MENU</p>
-                <h3>Starters</h3>
+                <h3 class='name1'>Starters</h3>
             </div>
             <div id="dishes1" class="dishes">
                 <div class="dishe">
-                <img src="./public/images/menu/menu-item-1.png" alt="">
-                <h4>Magnam Tiste</h4>
-                <p>Lorem, deren, trataro, filede, nerada</p>
-                <p>$5.95</p>
+                    <img src="./public/images/menu/menu-item-1.png" alt="">
+                    <h4>Magnam Tiste</h4>
+                    <p>Lorem, deren, trataro, filede, nerada</p>
+                    <p>$5.95</p>
                 </div>
                 <div class="dishe">
                     <img src="./public/images/menu/menu-item-2.png" alt="">
@@ -194,6 +195,43 @@
                     <p>Lorem, deren, trataro, filede, nerada</p>
                     <p>$9.95</p>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bookAtable">
+        <div class="book-title">
+            <p>Book A Table</p>
+            <h3>Book Your <span>Stay With Us</span></h3>
+        </div>
+        <div class="book-continer">
+            <div class="reservation">
+                <img src="./public/images/reservation.jpg" alt="">
+            </div>
+            <div class="book">
+                <form>
+                    <div class="inner-book">
+                        <div class="n-e-p">
+                        <input type="text" id="name" name="name" placeholder="Your Name">
+
+                        <input type="email" id="email" name="email" placeholder="Your Email">
+
+                        <input type="tel" id="phone" name="phone" placeholder="Your Phone">
+                        </div>
+                    <div class="d-t-p">
+                        <input type="date" id="date" name="date">
+
+                        <input type="time" id="time" name="time">
+                        
+                        <input type="number" id="ppl" name="ppl" placeholder="#of People">
+                    </div>
+                    <div class="msg-continer    ">
+                    <textarea class="msg" id="message" name="message" placeholder="Message"></textarea>
+                    </div>
+                    <input type="submit" class="book-btn" value="Book Table">
+                    </div>
+                    
+                </form>
             </div>
         </div>
     </section>

@@ -20,4 +20,22 @@ window.addEventListener('click', (e) => {
 
 //* menu section
 
-const menuModal = document.querySelector
+let namme = document.querySelector(".name1")
+let startest = document.querySelector('.starters')
+let breakfast= document.querySelector('.breakfast')
+let lunch = document.querySelector('.lunch')
+let dinner = document.querySelector('.dinner')
+
+startest.addEventListener('click',() => {
+    namme.textContent = 'starters'
+})
+
+breakfast.addEventListener('click',() => {
+    namme.textContent = 'breakfast'
+})
+lunch.addEventListener('click',() => {
+    namme.textContent = 'lunch'
+})
+dinner.addEventListener('click',() => {
+    namme.textContent = 'dinner'
+})

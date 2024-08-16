@@ -36,7 +36,7 @@ nav {
     z-index: 99999;
   }
 .modal-content {
-  background-color: aqua;
+  background-color: rgb(red, green, blue);
   text-align: center;
   border-radius: 40px;
   width: 250px;
@@ -288,9 +288,7 @@ nav {
 .stat p {
   margin: 0;
   font-size: 1em;
-  color: #a3a3a4;
 }
-
 .text-menu{
   text-align: center;
   margin-top: 20px;
@@ -303,6 +301,10 @@ nav {
   list-style: none;
   cursor: pointer;
   gap: 20px;
+}
+.menu-continer li:hover{
+  text-decoration: underline;
+  color: red;
 }
 .menu-text{
   display: flex;
@@ -328,4 +330,102 @@ nav {
 .dishe img{
   width: 300px;
 }
+.dishes {
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+
+.dishes.show {
+  opacity: 1;
+  display: flex;
+}
+
+
+.book{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.book-title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 70px;
+  gap: 20px;
+}
+.book-title h3{
+  font-family: Bradley Hand, cursive;
+  font-size: 30px;
+} 
+.book-title span{
+  color: red;
+}
+.book-continer{
+  margin-top: 60px;
+  padding-top: 40px;
+  padding: 100px;
+  background-color: #f8f8f8;
+}
+.reservation img{
+  width: 30vw;
+  height: 70vh;
+}
+.book-continer{
+  display: flex;
+  gap: 200px;
+}
+.inner-book{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 500px;
+  gap: 20px;
+  padding-top: 50px;
+}
+.n-e-p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.n-e-p input{
+  width: 200px;
+  padding: 10px;
+}
+.d-t-p{
+  display: flex;
+}
+.d-t-p input{
+  width: 200px;
+  padding: 10px;
+}
+.msg-continer{
+  display: flex;
+  align-items: start;
+  justify-content: start;
+}
+.msg{
+  width: 44vw;
+  height: 20vh;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+}
+.book-btn{
+  width: 200px;
+  padding: 16px;
+  background-color: #d22a2a;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.book-btn:hover{
+  background-color: #e16363;
+  opacity: 1;
+}
+
+
 /*# sourceMappingURL=app.css.map */
