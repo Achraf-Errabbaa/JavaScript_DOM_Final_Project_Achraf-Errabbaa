@@ -2,7 +2,7 @@
     margin: 0
     padding: 0
 
-* a
+a
     text-decoration: none
 
 nav
@@ -15,7 +15,7 @@ nav
     font-size: 35px
     font-weight: 80%
 
-    span
+    span    
         color: red
 
 .modals
@@ -108,7 +108,7 @@ nav
     flex-wrap: wrap
     background-color: #f2f2f2
 
-.hero
+.hero 
     img
         padding: 40px
         height: 70%
@@ -136,8 +136,10 @@ nav
 @keyframes up-down
     0%
         transform: translatey(0px)
+
     50%
         transform: translatey(-20px)
+
     100%
         transform: translatey(0px)
 
@@ -152,9 +154,9 @@ nav
     width: 47%
     margin-right: 20px
 
-    img
-        width: 100%
-        height: auto
+img
+    width: 100%
+    height: auto
 
 .book-table
     display: flex
@@ -184,9 +186,9 @@ nav
         gap: 15px
         align-items: start
 
-    img
-        width: 35vw
-        height: 40vh
+        img
+            width: 35vw
+            height: 40vh
 
 .why-section
     padding: 50px
@@ -206,4 +208,434 @@ nav
     flex-direction: column
     align-items: center
     justify-content: center
-border:
+    border: 1px solid
+    padding: 20px
+    margin: 10px
+    background-color: #ce1212
+    color: white
+    height: 35vh
+    width: 50vw
+
+    h3
+        margin-bottom: 10px
+
+    p
+        text-align: center
+        margin-bottom: 20px
+
+    button
+        color: white
+        border: none
+        border-radius: 20px
+        padding: 10px
+        width: 150px
+        font-size: medium
+        background-color: #e06a6a
+        cursor: pointer
+
+.infos
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-around
+
+.info
+    display: flex
+    flex-direction: column
+
+.stats
+    background-image: url(../images/stats-bg.jpg)
+    width: 100%
+    height: 350px
+    display: flex
+    align-items: center
+    justify-content: space-between
+    background-color: rgba(0, 0, 0, 0.3)
+
+.stat
+    color: white
+    height: 100%
+    width: 100%
+    display: flex
+    align-items: center
+    justify-content: center
+    flex-direction: column
+    background-color: rgba(0, 0, 0, 0.4)
+    font-size: 20px
+
+    h1
+        margin: 0
+        font-size: 2em
+
+    p
+        margin: 0
+        font-size: 1em
+
+.text-menu
+    text-align: center
+    margin-top: 20px
+    margin-bottom: 40px
+
+.menu-continer
+    ul
+        display: flex
+        align-items: center
+        justify-content: center
+        list-style: none
+        cursor: pointer
+        gap: 20px
+
+    li:hover
+        text-decoration: underline
+        color: red
+
+.menu-text
+    display: flex
+    align-items: center
+    justify-content: center
+    flex-direction: column
+    padding-top: 20px
+
+    h3
+        font-family: Bradley Hand, cursive
+        color: rgb(202, 14, 14)
+
+.dishes
+    display: flex
+    flex-wrap: wrap
+    align-items: center
+    justify-content: center
+    text-align: center
+
+.dishe
+    width: 500px
+
+    img
+        width: 300px
+
+.dishes
+    opacity: 1
+    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out
+
+    &.show
+        opacity: 1
+        display: flex
+
+.bigDiv-8
+    height: 90vh
+    width: 100%
+    padding-top: 200px
+    padding-bottom: 50px
+    display: flex
+    justify-content: center
+    align-items: center
+    flex-direction: column
+    row-gap: 50px
+
+.mini-4
+    display: flex
+    justify-content: center
+    align-items: center
+    flex-direction: column
+
+    p, h1
+    padding-top: 60px
+
+.mainDiv-5
+    display: flex
+    gap: 20px
+    position: relative
+
+.card-1
+    height: 600px
+    width: 430px
+    overflow: hidden
+    box-shadow: -7px 10px 32px -24px rgba(0, 0, 0, 0.83)
+    border-radius: 10px
+    position: relative
+
+.shape img
+    position: absolute
+    bottom: 14%
+    z-index: 9999
+
+.card-1
+    &:hover
+        transform: scale(1 0.5)
+        transition: 0.3s
+        overflow: hidden
+
+    img
+        width: 100%
+        height: 70%
+
+.clip
+    display: flex
+    justify-content: center
+    align-items: center
+    flex-direction: column
+    transform: translatey(-100px)
+    height: 275px
+    width: 100%
+    background-color: white
+    gap: 20px
+    text-align: center
+
+.marg
+    margin-top: 60px
+
+.clip
+    h3
+        color: rgb(55, 55, 63)
+
+    p
+     color: rgb(128, 131, 134)
+
+.book
+    display: flex
+    align-items: center
+    justify-content: center
+
+.book-title
+    display: flex
+    align-items: center
+    justify-content: center
+    flex-direction: column
+    padding-top: 70px
+    gap: 20px
+
+    h3
+        font-family: Bradley Hand, cursive
+        font-size: 30px
+
+    span
+        color: red
+
+.book-continer
+    margin-top: 60px
+    padding-top: 40px
+    padding: 100px
+    background-color: #f8f8f8
+
+.reservation img
+    width: 30vw
+    height: 70vh
+
+.book-continer
+    display: flex
+    gap: 200px
+
+.inner-book
+    display: flex
+    align-items: center
+    justify-content: center
+    flex-wrap: wrap
+    width: 500px
+    gap: 20px
+    padding-top: 50px
+
+.n-e-p
+    display: flex
+    justify-content: center
+    align-items: center
+
+    input
+        width: 200px
+        padding: 10px
+
+.d-t-p
+    display: flex
+
+    input
+        width: 200px
+        padding: 10px
+
+.msg-continer
+    display: flex
+    align-items: start
+    justify-content: start
+
+.msg
+    width: 44vw
+    height: 20vh
+    display: flex
+    align-items: start
+    justify-content: start
+
+.book-btn
+    width: 200px
+    padding: 16px
+    background-color: #d22a2a
+    color: white
+    border: none
+    cursor: pointer
+    border-radius: 8px
+
+    &:hover
+    background-color: #e16363
+    opacity: 1
+
+/* critics section
+
+.slider
+    width: 100%
+    height: 50vh
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    position: relative
+    overflow: hidden
+
+    > div:first-child
+    z-index: 2
+
+.slides
+    width: 80%
+    height: 100px
+    display: flex
+    justify-content: center
+    align-items: center
+    position: absolute
+    top: 0
+    left: 0
+    z-index: 1
+
+.slide
+    display: flex
+    flex-wrap: wrap
+    flex-direction: row
+    width: 100%
+    height: 100%
+    position: absolute
+    padding: 0
+
+.slide-text
+    flex-basis: 60%
+    display: flex
+    flex-wrap: wrap
+    flex-direction: column
+    gap: 20px
+    padding-right: 20px
+
+.slide >
+    p, h5, h6
+        flex-basis: 60%
+
+.imonials
+    flex-basis: 40%
+    text-align: right
+    display: flex
+    align-items: center
+    justify-content: center
+
+    img
+            width: 50%
+            border-radius: 50%
+            object-fit: cover
+
+.slide
+    width: 80%
+    height: 80%
+    display: flex
+    justify-content: center
+    align-items: start
+    padding: 100px
+    text-align: start
+    flex-direction: column
+    position: absolute
+    gap: 0px
+    top: 0
+    left: 0
+    opacity: 0
+    transform: translateX(100%)
+    transition: all 0.5s ease-in-out
+
+    &.displaySlide
+        opacity: 1
+            transform: translateX(0)
+
+    p
+        font-size: 20px
+        line-height: 1.5
+        text-align: start
+        color: #333
+        max-width: 60%
+
+    span h5 h6
+        display: block
+        font-style: italic
+
+.circle-nav
+    position: absolute
+    bottom: 2rem
+    left: 50%
+    transform: translateX(-50%)
+    display: flex
+    justify-content: center
+    align-items: center
+    z-index: 3
+
+.circle
+    width: 1.5rem
+    height: 1.5rem
+    border-radius: 50%
+    background-color: #ddd
+    margin: 0 0.5rem
+    cursor: pointer
+    transition: background-color 0.3s ease-in-out
+
+    &.active, &:hover
+            background-color: #ff1010
+
+.bgimonials
+    background-color: #f2f2f2
+
+.imonials-text
+    display: flex
+    align-items: center
+    justify-content: center
+    flex-direction: column
+    padding-top: 50px
+    gap: 20px
+
+    p
+        color: gray
+
+    span
+        color: red
+
+    h1
+        font-family: Bradley Hand, cursive
+
+.stars
+    display: flex
+    flex-wrap: wrap
+
+/* contact
+
+.location
+    display: flex
+    align-items: center
+    justify-content: center
+
+.contact-info
+    display: flex
+    align-items: center
+    justify-items: center
+
+    i
+        font-size: 30px
+        display: flex
+        align-items: center
+        justify-content: center
+        width: 50px
+        height: 50px
+        background-color: red
+        border-radius: 100px
+
+.contact-infoText
+    flex-direction: column
+
+
+
+/*# sourceMappingURL=app.css.map
